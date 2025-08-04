@@ -29,7 +29,7 @@ def about(request):
 
 
 urlpatterns = [
-    # path("admin/", admin.site.urls),
     path("about/", about),
     path("", home),
+    path("admin/", admin.site.urls),
 ]
